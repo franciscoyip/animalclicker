@@ -1,0 +1,56 @@
+// bower:scss
+// endbower
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+$blue: #337ab7;
+
+.wrapper {
+    max-width: 650px;
+        width: 90%;
+       margin: auto;
+  white-space: nowrap;
+
+  div {
+    box-sizing: border-box;
+  }
+
+  .leftnav, .catarea {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  .leftnav {
+    width: 20%;
+  }
+
+  .catarea {
+    width: 80%;
+  }
+
+  /* Reset */
+  ul, li {
+    list-style: none;
+       padding: 0;
+        margin: 0;
+  }
+
+  .links {
+    img {
+      width: 100%;
+    }
+    .name {
+      font-size: 1.25em;
+      margin: 5px 0;
+    }
+  }
+  .result-count {
+    color: $blue;
+  }
+}
